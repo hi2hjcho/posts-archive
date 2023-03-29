@@ -27,11 +27,11 @@
 
 - 이미지 파일의 규격은 500KB 이하로 이미지 파일 에디터를 이용하여 수정한다.
 
-## 생성 - publish 절차적 규칙 ##
+## 생성 - archive - publish 절차적 규칙 ##
 
-- 로컬 폴더 -> github
-- github -> 로컬 폴더
-
+- 로컬 폴더 -> github -> (sync) -> archive
+- github -> 로컬 폴더 -> (sync) -> archive
+- archive -> publish
 
 
 ## 고민
